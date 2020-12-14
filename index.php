@@ -16,14 +16,10 @@
     ?>
 
     <p><?php echo $text; ?></p>
-    <h4><?php echo $length; ?></h4>
+    <h3><?php echo $length; ?></h3>
 
-    <?php
-    // GET BADWORD
-    $badword = $_GET['Ciao Mondo'];
-    ?>
-
-    <h5></h5>
+    <!-- LINK BADWORD -->
+    <a href="./script.php?badword=mela">Parola censurata</a>
 
     <!-- Fine esercizio php badwords -->
 </body>
