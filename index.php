@@ -9,14 +9,14 @@
     <!-- Inizio esercizio php badwords -->
 
     <?php
-    // GET PHP INFO.
+    // GET PHP INFO
     $text = 'Hello World';
-    // LENGTH
-    $length = strlen($text);
+    // LENGHT
+    $lenght = strlen($text);
     ?>
 
     <p><?php echo $text; ?></p>
-    <h3><?php echo $length; ?></h3>
+    <h3><?php echo $lenght; ?></h3>
 
     <!-- LINK BADWORD -->
     <a href="./script.php?badword=mela">Parola censurata</a>
